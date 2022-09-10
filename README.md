@@ -1,4 +1,4 @@
-#Parcelable ve Serializable
+# Parcelable ve Serializable
 
 Bu iki yöntem ile referans tipleri parçalayıp bir hizaya getiriyoruz daha sonrasında Intent yapısının içerisine koyup diğer bir activitiye taşıyoruz.
 
