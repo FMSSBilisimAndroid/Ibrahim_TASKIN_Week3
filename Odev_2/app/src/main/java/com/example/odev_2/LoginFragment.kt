@@ -20,6 +20,12 @@ class LoginFragment : Fragment() {
         return fragmentLoginBinding.root
     }
 
+    /**
+     * forwardButton LoginFragmentdan MainFragmenta geçiş sağlıyor.
+     * backQueue.clear gerideki sırayı temizliyoruz.
+     * @param view
+     * @param savedInstanceState
+     */
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         fragmentLoginBinding.apply {
